@@ -1,8 +1,9 @@
 from math import inf
+
 def divide(first, second):
     if second == 0:
         return inf
     div = (first/second)
-    print(div)
+    return div
 
 

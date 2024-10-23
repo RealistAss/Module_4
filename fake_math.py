@@ -3,7 +3,7 @@ def divide(first, second):
     if second == 0:
         return error
     div = (first/second)
-    print(div)
+    return div
 
 
 
